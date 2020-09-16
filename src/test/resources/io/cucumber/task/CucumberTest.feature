@@ -7,6 +7,6 @@
 Feature: CucumberTest
 
   Scenario: test web page
-    Given open web page
+    Given open "https://www.amazon.com" web page
     When test web page
     Then assert results
