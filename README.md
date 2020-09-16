@@ -12,17 +12,8 @@ Git:
     git clone https://github.com/ju1ss1/task.git
     cd task
 
-
 ## Use Maven
 
 Open a command window and run:
 
-   mvn clean test
-    
-
-## Overriding options
-
-It's possible to override test url by givin url as a parameter in command line when executing the test.
-
-	mvn cleant test -Durl=<your url>
-
+	mvn clean test
